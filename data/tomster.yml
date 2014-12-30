@@ -1,24 +1,31 @@
-- tomster_ID: Tomster
-  tomster_name: Tomster
-  tomster_purpose: Ember core internal
-  purpose_link: http://emberjs.com/
-  date_designed: ???
-  licensed_to: Tilde Inc.
-  image: /images/tomster-sm.png
 - tomster_ID: Beta Tomster
   tomster_name: Beta Tomster
   tomster_purpose: Ember core internal
   purpose_link: http://emberjs.com/
   date_designed: ???
   licensed_to: Tilde Inc.
-  image: /images/tomster-beta-sm.png
+  image: /images/tomster-beta.png
 - tomster_ID: Under Construction Tomster
   tomster_name: Under Construction Tomster
   tomster_purpose: Ember core internal
   purpose_link: http://emberjs.com/
   date_designed: ???
   licensed_to: Tilde Inc.
-  image: /images/tomster-under-construction-sm.png
+  image: /images/tomster-under-construction.png
+- tomster_ID: Campster Tomster
+  tomster_name: Campster Tomster
+  tomster_purpose: Ember core internal
+  purpose_link: http://emberjs.com/
+  date_designed: ???
+  licensed_to: Tilde Inc.
+  image: /images/community/campster_x2.png
+- tomster_ID: Bug Tomster
+  tomster_name: Bug Tomster
+  tomster_purpose: Ember core internal
+  purpose_link: http://emberjs.com/
+  date_designed: ???
+  licensed_to: Tilde Inc.
+  image: /images/community/bug_x2.png
 - tomster_ID: Ember London
   tomster_name: Ember London
   tomster_purpose: Ember London meetup
