@@ -16,15 +16,17 @@ title: "Tomster Compendium"
       <% slice.each do |tomster| %>
         <td>
           <img src="<%= tomster.image %>">
-          <p>
-            <%= tomster.tomster_name %>
-          </p>
-          <p>
-            <a href="<%= tomster.purpose_link %>"><%= tomster.tomster_purpose %></a>
-          </p>
-          <p>
-            Licensed to <%= tomster.licensed_to %>
-          </p>
+          <div class="box">
+            <p>
+              <%= tomster.tomster_name %>
+            </p>
+            <p>
+              <a href="<%= tomster.purpose_link %>"><%= tomster.tomster_purpose %></a>
+            </p>
+            <p>
+              Licensed to <%= tomster.licensed_to %>
+            </p>
+          </div>
         </td>
       <% end %>
     </tr>

@@ -1327,6 +1327,8 @@ rule. Added some breathing room. */
   table {
     table-layout: fixed;
     width: 100%;
+    border-collapse: separate;
+    border-spacing: 5em;
   }
 
   td {
@@ -1336,12 +1338,17 @@ rule. Added some breathing room. */
   }
 
   img {
-    width: 345px;
+    width: 100%;
+    max-width: 345px;
   }
 
   #content {
     margin: 3em auto 0 auto;
     width: 54em;
+  }
+
+  .box {
+    background-color: #f2ece9;
   }
 }
 
