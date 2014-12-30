@@ -1,0 +1,24 @@
+---
+title: "Tomster Compendium"
+---
+
+<h1>Tomster Compendium</h1>
+
+<p>
+  Tomster, Ember's much beloved mascot, has had a number of wardrobe changes. View a collection of the hamster's images below, and check out the <a href="meetup-assets">Ember Meetup Assets</a> to see how to commission your own custom Tomster.
+</p>
+
+<table>
+  <% data.tomster.each_slice(2) do |slice| %>
+    <tr>
+      <% slice.each do |tomster| %>
+        <td>
+          <img src="<%= tomster.image %>">
+          <p>
+            <%= tomster.name %>
+          </p>
+        </td>
+      <% end %>
+    </tr>
+  <% end %>
+</table>

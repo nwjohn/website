@@ -1,0 +1,35 @@
+- tomster_ID: Tomster
+  tomster_name: Tomster
+  tomster_purpose: Ember core internal
+  purpose_link: http://emberjs.com/
+  date_designed: ???
+  licensed_to: Tilde Inc.
+  image: /images/tomster-sm.png
+- tomster_ID: Beta Tomster
+  tomster_name: Beta Tomster
+  tomster_purpose: Ember core internal
+  purpose_link: http://emberjs.com/
+  date_designed: ???
+  licensed_to: Tilde Inc.
+  image: /images/tomster-beta-sm.png
+- tomster_ID: Under Construction Tomster
+  tomster_name: Under Construction Tomster
+  tomster_purpose: Ember core internal
+  purpose_link: http://emberjs.com/
+  date_designed: ???
+  licensed_to: Tilde Inc.
+  image: /images/tomster-under-construction-sm.png
+- tomster_ID: Ember London
+  tomster_name: Ember London
+  tomster_purpose: Ember London meetup
+  purpose_link: http://emberlondon.com/
+  date_designed: ???
+  licensed_to: Ember London
+  image: /images/community/tomsters/Ember-London-Half-sm.png
+- tomster_ID: Ember Munich
+  tomster_name: Ember Munich
+  tomster_purpose: Ember Munich meetup
+  purpose_link: http://www.meetup.com/Ember-js-Munich/
+  date_designed: ???
+  licensed_to: Ember Munich
+  image: /images/community/tomsters/Ember-Munich-Half-sm.png
