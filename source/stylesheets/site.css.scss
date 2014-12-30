@@ -73,17 +73,17 @@ h1 {
   margin-top: 0;
   color: $orange-color;
   // Couldn't find why this border-bottom was originally added, and
-  // it was messing other things up. Please ping @wifelette if you 
+  // it was messing other things up. Please ping @wifelette if you
   // sort it out :p
   // border-bottom: solid 1px #d0d0d0;
   padding-bottom: 20px;
 }
 
-/* This next h1 is so h1s in the middle of the page (ie not the first time) 
+/* This next h1 is so h1s in the middle of the page (ie not the first time)
 have additional breathing room up top */
 
 h1:not(:first-child) {
-  margin-top: 40px; 
+  margin-top: 40px;
 }
 
 h2 {
@@ -235,7 +235,7 @@ p {
           border-bottom: 1px solid #d5ccc8;
           padding: 12px 12px 10px 12px;
           background-color: rgb(244, 236, 233);
-          
+
           &:hover {
             background-color: #ECE3E0;
           }
@@ -1144,7 +1144,7 @@ body.security #content {
 look a bit claustrophobic by our regular h1 horizontal
 rule. Added some breathing room. */
 
-  h1 { 
+  h1 {
     margin-bottom: 10px;
   }
 
@@ -1319,6 +1319,26 @@ rule. Added some breathing room. */
     }
 }
 
+/**
+  Tomster Page
+**/
+
+.tomsters {
+  table {
+    table-layout: fixed;
+    width: 100%;
+  }
+
+  td {
+    width: 50%;
+    text-align: center;
+    vertical-align: bottom;
+  }
+
+  img {
+    width: 345px;
+  }
+}
 
 /**
   Footer
