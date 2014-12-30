@@ -1323,7 +1323,7 @@ rule. Added some breathing room. */
   Tomster Page
 **/
 
-.tomsters {
+.tomster {
   table {
     table-layout: fixed;
     width: 100%;
@@ -1337,6 +1337,11 @@ rule. Added some breathing room. */
 
   img {
     width: 345px;
+  }
+
+  #content {
+    margin: 3em auto 0 auto;
+    width: 54em;
   }
 }
 
